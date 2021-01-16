@@ -32,7 +32,7 @@ const reducer = (state = initialState, action) => {
                 data: action.payload,
             };
         case SET_SEARCHING: return { ...state, searching: action.payload }
-        case RESTORE: return { ...state, data: state.old }
+        case RESTORE: return { ...state, data: [] }
         default: return state;
     }
 };

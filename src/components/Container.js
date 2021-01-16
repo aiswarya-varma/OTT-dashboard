@@ -43,7 +43,6 @@ class TileContainer extends React.Component {
 
     restore() {
         this.setState({ dataSet: 1 }, () => {
-            this.props.getDataSet(this.state.dataSet);
             this.observer.observe(this.intersectionRef.current);
         });
     }

@@ -92,6 +92,7 @@ const Search = props => {
                             style={{ margin: 8 }}
                             placeholder="Search"
                             margin="normal"
+                            maxlength="10"
                             InputLabelProps={{
                                 shrink: true,
                             }}
