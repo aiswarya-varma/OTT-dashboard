@@ -1,0 +1,10 @@
+/**
+ * Action types
+ */
+
+const GET_DATA = "GET_DATA";
+const SEARCH_DATA = "SEARCH_DATA";
+const SET_SEARCHING = "SET_SEARCHING";
+const RESTORE = "RESTORE";
+
+export { GET_DATA, SEARCH_DATA, SET_SEARCHING, RESTORE };
